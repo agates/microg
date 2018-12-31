@@ -14,8 +14,8 @@ patches = ["10004-microg-sigspoof.patch"]
 repo = "https://github.com/Hammergrat7/microg"
 
 [[custom-scripts]]
-  scripts = ["90004-modify-build-fingerprint.sh"]
-  repo = "https://github.com/Hammergrat7/microg"
+scripts = ["90004-modify-build-fingerprint.sh"]
+repo = "https://github.com/Hammergrat7/microg"
 
 [[custom-prebuilts]]
 modules = ["DroidGuard","GmsCore","GsfProxy","YalpStore","FakeStore","com.google.android.maps.jar"]
