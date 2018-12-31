@@ -1,0 +1,13 @@
+diff --git a/frameworks/base/core/res/res/values/config.xml b/frameworks/base/core/res/res/values/config.xml
+index 0b5dd7e..bbdba64 100644
+--- a/frameworks/base/core/res/res/values/config.xml
++++ b/frameworks/base/core/res/res/values/config.xml
+@@ -1650,6 +1650,8 @@
+     <string-array name="config_locationProviderPackageNames" translatable="false">
+         <!-- The standard AOSP fused location provider -->
+         <item>com.android.location.fused</item>
++        <!-- The (faked) microg fused location provider (a free reimplementation) -->
++        <item>org.microg.nlp</item>
+     </string-array>
+ 
+     <!-- This string array can be overriden to enable test location providers initially. -->
