@@ -4,7 +4,7 @@ I have also included a fingerprint spoofing patch for compatibility with SafteyN
 
 In addition to the patch I have included a modified DroidGuard APK from packetup's repo here: https://github.com/packetup/android_prebuilts_prebuiltapks/blob/master/DroidGuard/org.microg.gms.droidguard-4.apk. Note, I have no method of auditing this APK and the sha256sum appears to differ from any APK hosted on microG's official site: https://microg.org/download.html. As another note, it appears the last commit on the official DroidGuard GitHub repo was January 1st 2018 so the DroidGuard APK included would not be considered open source: https://github.com/microg/android_packages_apps_RemoteDroidGuard.
 
-I have also chosen to include the latest version of Yalp Store found here: https://github.com/yeriomin/YalpStore/releases/tag/0.45. The APK and privapp-permissions have been taken from the "yalp-store-ota-contemporary-45.zip" and the Android.mk was written by me. This enables installing of split APK's like Google Maps.
+I have also chosen to include the latest version of Yalp Store found here: https://github.com/yeriomin/YalpStore/releases/tag/0.45. The APK and privapp-permissions have been taken from the "yalp-store-ota-contemporary-45.zip" and the Android.mk was written by me. This enables installation of split APK's like Google Maps.
 
 ## How to
 Add the following to end of your `rattlesnakeos-stack` config file.
