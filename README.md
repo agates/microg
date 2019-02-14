@@ -9,17 +9,17 @@ I have also chosen to include the latest version of Yalp Store found here: https
 ## How to
 Add the following to end of your `rattlesnakeos-stack` config file.
 ```
-[[custom-patches]]https://nanolx.org/fdroid/repo/DroidGuard_0.apk
-patches = ["10004-microg-sigspoof.patch"]
+[[custom-patches]]
 repo = "https://github.com/Hammergrat7/microg"
+patches = [ "10004-microg-sigspoof.patch" ]
 
 [[custom-scripts]]
-scripts = ["90004-modify-build-fingerprint.sh"]
 repo = "https://github.com/Hammergrat7/microg"
+scripts = [ "90004-modify-build-fingerprint.sh" ]
 
 [[custom-prebuilts]]
-modules = ["DroidGuard","GmsCore","GsfProxy","YalpStore","FakeStore","com.google.android.maps.jar"]
 repo = "https://github.com/Hammergrat7/microg"
+modules = [ "DroidGuard","GmsCore","GsfProxy","YalpStore","FakeStore","com.google.android.maps.jar" ]
 ```
 
 A few points about the microG setup. Due to the way patches are applied in the stack, if you try to combine other patches, the build may fail. The combination of this with other patches hasn't been tested. The first time you boot, open the microG app and do the self-test. Give it the permissions and add location backends. If it still complains that network location is not enabled, you need to toggle the location from main android settings once for it to work. Ideally, you should get all check boxes after that. Finally, in Chromium, go to site settings, and disable the location permission for google.com; it causes crashes in the microG setup.
