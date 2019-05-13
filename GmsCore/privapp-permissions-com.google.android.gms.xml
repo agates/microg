@@ -10,7 +10,9 @@
         <permission name="org.microg.permission.FORCE_COARSE_LOCATION"/>
         <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
         <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
-        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>        
+        <permission name="android.permission.ALLOCATE_AGGRESSIVE"/>
     </privapp-permissions>
 </permissions>
