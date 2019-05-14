@@ -29,3 +29,4 @@ A few points about the microG setup. Due to the way patches are applied in the s
 * https://github.com/packetup
 * https://github.com/dan-v
 * https://github.com/Riamse
+* https://github.com/Nanolx
